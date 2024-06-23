@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import './styles.css'
+import './style.css'
 
 export default {
   name: 'CountryFlag',

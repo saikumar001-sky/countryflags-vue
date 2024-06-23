@@ -1,14 +1,32 @@
 {
   "name": "countryflags-vue",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.4",
+  "description": "Country Flags npm package with vue 3",
   "type": "module",
+  "main": "./dist/country-flags-vue.umd.cjs",
+  "module": "./dist/country-flags-vue.es.js",
+  "keywords": [
+    "vue",
+    "vue3",
+    "component",
+    "library",
+    "vite",
+    "country",
+    "Flags",
+    "flags-rounded",
+    "countryflags",
+    "flag"
+  ],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
+  "peerDependencies": {
     "vue": "^3.4.29"
   },
   "devDependencies": {
