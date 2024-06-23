@@ -1,11 +1,12 @@
 {
   "name": "countryflags-vue",
   "private": false,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Country Flags npm package with vue 3",
   "type": "module",
   "main": "./dist/country-flags-vue.umd.cjs",
   "module": "./dist/country-flags-vue.es.js",
+  "homepage": "https://github.com/saikumar001-sky/countryflags-vue",
   "keywords": [
     "vue",
     "vue3",
